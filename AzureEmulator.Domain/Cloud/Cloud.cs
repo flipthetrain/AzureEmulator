@@ -1,6 +1,6 @@
 ﻿namespace AzureEmulator.Domain.Cloud
 {
-    public record Example
+    public record Cloud
     {
         public Endpoints endpoints { get; set; }
         public bool isActive { get; set; }

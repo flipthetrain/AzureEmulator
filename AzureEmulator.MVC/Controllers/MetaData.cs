@@ -10,21 +10,15 @@ namespace AzureEmulator.MVC.Controllers
         /*
           az cloud register ^
           -n AzureEmulatorCloud ^
-          --endpoint-resource-manager="http://localhost:5000" 
+          --cloud-config @"cloud.json"
          */
         [HttpGet("endpoints")]
         public IActionResult EndPoints()
         {
-            CloudEndpoints results = new CloudEndpoints()
+            Cloud results = new Cloud()
             {
-                galleryEndpoint = "http://gallery.localhost:5000/",
-                graphEndpoint = "http://graph.localhost:5000/",
-                portalEndpoint = "http://portal.localhost:5000",
-                authentication = new Authentication()
-                {
-                    audiences = new List<string>() { "http://localhost:5000" },
-                    loginEndpoint = "http://login.localhost:5000"
-                }
+                 endpoints=new Endpoints() { },
+                 suffixes=new Suffixes() { }
             };
 
             return Ok(results);

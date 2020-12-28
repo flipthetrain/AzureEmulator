@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
+using System.Threading.Tasks;
 
 namespace AzureEmulator.MVC.Middleware
 {
@@ -9,7 +10,7 @@ namespace AzureEmulator.MVC.Middleware
         {
             _next = next;
         }
-        public async void Invoke(HttpContext context)
+        public async Task InvokeAsync(HttpContext context)
         {
             await _next(context);
         }

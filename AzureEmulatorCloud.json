@@ -1,0 +1,41 @@
+{
+  "endpoints": {
+    "activeDirectory": "http://login.microsoftonline.com.localhost:5000",
+    "activeDirectoryDataLakeResourceId": "http://datalake.azure.net.localhost:5000/",
+    "activeDirectoryGraphResourceId": "http://graph.windows.net.localhost:5000/",
+    "activeDirectoryResourceId": "http://management.core.windows.net.localhost:5000/",
+    "appInsightsResourceId": "http://api.applicationinsights.io.localhost:5000",
+    "appInsightsTelemetryChannelResourceId": "http://dc.applicationinsights.azure.com.localhost:5000/v2/track",
+    "attestationResourceId": "http://attest.azure.net.localhost:5000",
+    "batchResourceId": "http://batch.core.windows.net.localhost:5000/",
+    "gallery": "http://gallery.azure.com.localhost:5000/",
+    "logAnalyticsResourceId": "http://api.loganalytics.io.localhost:5000",
+    "management": "http://management.core.windows.net.localhost:5000/",
+    "mediaResourceId": "http://rest.media.azure.net.localhost:5000",
+    "microsoftGraphResourceId": "http://graph.microsoft.com.localhost:5000/",
+    "ossrdbmsResourceId": "http://ossrdbms-aad.database.windows.net.localhost:5000",
+    "portal": "http://portal.azure.com.localhost:5000",
+    "resourceManager": "http://management.azure.com.localhost:5000/",
+    "sqlManagement": "http://management.core.windows.net.localhost:5000/",
+    "synapseAnalyticsResourceId": "http://dev.azuresynapse.net.localhost:5000",
+    "vmImageAliasDoc": "http://raw.githubusercontent.com.localhost:5000/Azure/azure-rest-api-specs/master/arm-compute/quickstart-templates/aliases.json"
+  },
+  "isActive": false,
+  "name": "AzureCloud",
+  "profile": "latest",
+  "suffixes": {
+    "acrLoginServerEndpoint": ".azurecr.io.localhost:5000",
+    "attestationEndpoint": ".attest.azure.net.localhost:5000",
+    "azureDatalakeAnalyticsCatalogAndJobEndpoint": "azuredatalakeanalytics.net.localhost:5000",
+    "azureDatalakeStoreFileSystemEndpoint": "azuredatalakestore.net.localhost:5000",
+    "keyvaultDns": ".vault.azure.net.localhost:5000",
+    "mariadbServerEndpoint": ".mariadb.database.azure.com.localhost:5000",
+    "mhsmDns": ".managedhsm.azure.net.localhost:5000",
+    "mysqlServerEndpoint": ".mysql.database.azure.com.localhost:5000",
+    "postgresqlServerEndpoint": ".postgres.database.azure.com.localhost:5000",
+    "sqlServerHostname": ".database.windows.net.localhost:5000",
+    "storageEndpoint": "core.windows.net.localhost:5000",
+    "storageSyncEndpoint": "afs.azure.net.localhost:5000",
+    "synapseAnalyticsEndpoint": ".dev.azuresynapse.net.localhost:5000"
+  }
+}

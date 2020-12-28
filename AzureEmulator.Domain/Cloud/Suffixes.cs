@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AzureEmulator.Domain.Cloud
+﻿namespace AzureEmulator.Domain.Cloud
 {
     public record Suffixes
     {
